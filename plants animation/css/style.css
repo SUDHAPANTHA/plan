@@ -1,0 +1,32 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif !important;
+    }
+    
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    
+    .navbar-nav a {
+        text-align: right;
+        position: relative;
+        margin-left: auto;
+        left: 400px;
+    }
+    
+    .image img {
+        width: 100%;
+        height: 300;
+        transition: all 2s ease-in-out;
+        animation: look-around;
+    }
+    
+    .image:hover img {
+        transform: scale(2, 2);
+        cursor: pointer
+    }
